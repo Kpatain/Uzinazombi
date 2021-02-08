@@ -16,14 +16,6 @@ class Zombie
 
         ~Zombie();
 
-    protected:
-
-    private:
-        int pv = 0;
-        int attaque = 0;
-        int vie = 0;
-        string nom = "name";
-
         //PV
         int getV() const;
         void setV(int v);
@@ -37,6 +29,15 @@ class Zombie
         void setA(int a);
 
         void showInfos() const;
+
+    protected:
+
+    private:
+        int pv = 0;
+        int attaque = 0;
+        int vie = 0;
+        string nom = "name";
+
 };
 
 #endif // ZOMBIE_H

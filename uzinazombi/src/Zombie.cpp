@@ -64,7 +64,7 @@ void Zombie::setA(int a)
 	}
 }
 
-void Personnage::showInfos() const
+void Zombie::showInfos() const
 {
 	cout << "nom : " << getNom() << endl;
 	cout << "pv : " << getV() << endl;
