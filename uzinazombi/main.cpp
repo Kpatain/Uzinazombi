@@ -1,9 +1,10 @@
 #include <iostream>
+#include "Zombie.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Test2" << endl;
-    return 0;
+    Zombie jean(110,10, "jean");
+    cout << jean.getA() << endl;
 }
