@@ -8,7 +8,9 @@ class Rapace : public Zombie
 {
     public:
         Rapace();
-        virtual ~Rapace();
+        ~Rapace();
+
+        void pichenette(Zombie* cible);
 
     protected:
 

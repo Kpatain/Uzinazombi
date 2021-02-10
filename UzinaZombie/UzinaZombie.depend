@@ -11,3 +11,28 @@
 	<iostream>
 	"Zombie.h"
 
+1612955385 source:c:\users\render\documents\github\uzinazombi\uzinazombie\src\rapace.cpp
+	"Rapace.h"
+
+1612955385 c:\users\render\documents\github\uzinazombi\uzinazombie\include\rapace.h
+	<Zombie.h>
+
+1612954412 c:\users\render\documents\github\uzinazombi\uzinazombie\include\zombie.h
+	<string>
+	<iostream>
+	<stdlib.h>
+
+1612955227 source:c:\users\render\documents\github\uzinazombi\uzinazombie\src\zombie.cpp
+	"Zombie.h"
+
+1612956013 source:c:\users\render\documents\github\uzinazombi\uzinazombie\main.cpp
+	<iostream>
+	"Zombie.h"
+	"Bomber.h"
+
+1612955117 c:\users\render\documents\github\uzinazombi\uzinazombie\include\bomber.h
+	<Zombie.h>
+
+1612956000 source:c:\users\render\documents\github\uzinazombi\uzinazombie\src\bomber.cpp
+	"Bomber.h"
+

@@ -7,11 +7,10 @@ Bomber::Bomber()
 
 Bomber::~Bomber()
 {
-    cout<<nom<<" decede"<<endl;
+    cout<<"le bomber est decede"<<endl;
 }
 
 void Bomber::explosion(Zombie* cible){
-        cible-> setV(cible->getPv()-(getA()*3));
-        setV(0);
+        cible-> setV(cible->getV()-(getA()*3));
         Zombie::~Zombie;
 }
