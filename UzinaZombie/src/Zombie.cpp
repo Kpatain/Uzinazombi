@@ -11,7 +11,7 @@ Zombie::Zombie(int v, int a, string n)
 {
     if (v > 100){
         cout << n << " a trop de vie, Zombie mort" << endl;
-        vie = 0;
+        Zombie::~Zombie;
     }
 
     else{
@@ -35,7 +35,7 @@ int Zombie::getV() const
 void Zombie::setV(int v) {
 	if (v < 0) {
 		cerr << "pv non autorise" << endl;
-		vie = 0;
+		Zombie::~Zombie;
 	}
 	else {
 		vie = v;
@@ -62,6 +62,9 @@ void Zombie::setA(int a)
 	if (a < 0) {
 		attaque = 0;
 	}
+	else{
+        attaque = a;
+	}
 }
 
 void Zombie::showInfos() const
@@ -71,5 +74,19 @@ void Zombie::showInfos() const
 	cout << "attaque : " << getA() << endl;
 
 }
+
+void Zombie::attack(Zombie* cible){
+    if(cible->getV() < 0){
+            cout<<"deja mort"<<endl;
+    }
+    else{
+        cible->setV(cible->getV()-attaque);
+        if(cible->getV()<=0){
+            cible->setV(0);
+            cible->~Zombie();
+        }
+    }
+}
+
 
 

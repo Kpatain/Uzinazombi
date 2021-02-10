@@ -30,6 +30,8 @@ class Zombie
 
         void showInfos() const;
 
+        void attack(Zombie* cible);
+
     protected:
 
     private:

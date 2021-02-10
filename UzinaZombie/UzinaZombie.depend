@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1612954801 source:c:\users\render\documents\github\uzinazombie\src\zombie.cpp
+	"Zombie.h"
+
+1612954412 c:\users\render\documents\github\uzinazombie\include\zombie.h
+	<string>
+	<iostream>
+	<stdlib.h>
+
+1612954764 source:c:\users\render\documents\github\uzinazombie\main.cpp
+	<iostream>
+	"Zombie.h"
+
